@@ -37,7 +37,7 @@ if($_SESSION['usertype'] != 'student'){
 								<div class="card ">
 							        <div class="card-content align-center">
 							        	<img src="images/my-courses-icon.png" class="dashboard-icon" type="images/png" alt="Courses Enrolled"><!--thumbnail image-->
-							          	<h5 class=" fontw-500 color-green">Courses Enrolled</h5><!--thumbnail title-->			
+							          	<h5 class=" fontw-500 color-black">Courses Enrolled</h5><!--thumbnail title-->			
 							        </div>
 							    </div>
 							</a>
@@ -48,7 +48,7 @@ if($_SESSION['usertype'] != 'student'){
 								<div class="card ">
 							        <div class="card-content align-center">
 							        	<img src="images/courses-icon.png" class="dashboard-icon" type="images/png" alt="Courses Offered"><!--thumbnail image-->	
-							          	<h5 class=" fontw-500 color-green">Courses Offered</h5><!--thumbnail title-->	
+							          	<h5 class=" fontw-500 color-black">Courses Offered</h5><!--thumbnail title-->	
 							        </div>
 							    </div>
 							</a>

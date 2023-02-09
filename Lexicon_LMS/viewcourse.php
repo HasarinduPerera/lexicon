@@ -140,7 +140,7 @@ else{ //if user is logged in ?>
 					<h1 class="page-heading"><?php echo $row['cID']." - ".$row['cName']?></h1> <!--page title: Course ID - Course Name-->
 			    	<p><?php echo $row['cDesc']?></p><!--Course Description-->
 				</div>
-				<div class="col s12 m7 l5">
+				<div class="Lecturecou">
 					<!--Course Extra Information-->
 					<div class="card-info margin-top-40">
 						<table class="highlight responsive-table">
