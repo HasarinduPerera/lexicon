@@ -56,6 +56,7 @@ include('session.php'); //check if there is an active log in session
 						</form> <!--sign in form end-->
 
 						<p>Don't have an account? <a href="register.php" class="registerbtn">Register Now</a></p>
+						<p>Are you staff? <a href="staff-signin.php" class="registerbtn">Signin Here</a></p>
 					</div><!--card-content div close-->
 				</div><!--card div close-->	
 			</div> 

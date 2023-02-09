@@ -2,7 +2,7 @@
 session_start();
 
 //connect to database
-$dbconnect = mysqli_connect('localhost', 'root', '' , 'Lexicon');
+$dbconnect = mysqli_connect('localhost', 'root', '' , 'lexicon');
 if (!$dbconnect) {
     die("Connection failed: " . mysqli_connect_error()); //if cannot establish connection with database
 }
