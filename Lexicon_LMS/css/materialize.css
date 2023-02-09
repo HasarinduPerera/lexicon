@@ -755,16 +755,16 @@
   color: #2962FF !important;
 }
 
-.light-blue {
-  background-color: #03a9f4 !important;
-}
-
 .light-blue-text {
   color: #03a9f4 !important;
 }
 
 .light-blue.lighten-5 {
   background-color: #e1f5fe !important;
+}
+
+.light-blue {
+  background-color: #03a9f4 !important;
 }
 
 .light-blue-text.text-lighten-5 {
@@ -2175,7 +2175,7 @@ header,
 nav,
 section {
 	display: block;
-	color: #FFF;
+	color: #000;
 }
 
 /**
@@ -3000,7 +3000,7 @@ table.highlight > tbody > tr {
 }
 
 table.highlight > tbody > tr:hover {
-  background-color: rgba(242, 242, 242, 0.5);
+	background-color: #CCC;
 }
 
 table.centered thead tr th, table.centered tbody tr td {

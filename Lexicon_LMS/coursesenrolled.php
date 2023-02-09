@@ -35,8 +35,8 @@ $id = $_SESSION['username']; //student ID
 						<h4 class="fontw-500 align-center">Courses Enrolled</h4><!--title-->	
 						<div class="card-flex post-login">							
 						<?php
-						$get_studID = mysqli_query($dbconnect,"SELECT 'sID' FROM `student` WHERE `sEmail`='$id'");
-						$courses_enrolled = mysqli_query($dbconnect,"SELECT * FROM `course-enrolled` WHERE `studID`='$get_studID'"); //retrieve courses enrolled by student
+						//$get_studID = mysqli_query($dbconnect,"SELECT 'sID' FROM `student` WHERE `sEmail`='$id'");
+						$courses_enrolled = mysqli_query($dbconnect,"SELECT * FROM `course-enrolled` WHERE `studID`='$id'"); //retrieve courses enrolled by student
 
 						//if query fetches rows
 						if (mysqli_num_rows($courses_enrolled) > 0) { 
