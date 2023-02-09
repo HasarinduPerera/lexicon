@@ -292,8 +292,8 @@ main.container {
   box-shadow: none;
 }
 .btn-action.btn-icon .icon{
-  font-size: 25px;
-  color:#ffab00;
+	font-size: 25px;
+	color:#FC0;
 }
 
 input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]),
@@ -620,10 +620,10 @@ aside {
 }
 
 .icon {
-    font-size: 20px;
-    vertical-align: sub;
-    color: #31a36e;
-    width: 25px;
+	font-size: 20px;
+	vertical-align: sub;
+	color: #FC0;
+	width: 25px;
 }
 .btn-icon .icon {
   color: #fff;
