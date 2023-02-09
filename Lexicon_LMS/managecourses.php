@@ -25,7 +25,7 @@ $result_courses = mysqli_query($dbconnect,"SELECT * FROM `course`");
 		</div>	
 		<div class="padding-lr-20">	
 			<div class="card">	
-				<div class="card-content">	
+				<div class="padding-lr-20">	
 					<table class="responsive-table highlight">	
 						<thead>
 							<tr>

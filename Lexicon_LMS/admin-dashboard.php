@@ -22,8 +22,8 @@ if($_SESSION['usertype'] != 'admin'){
 					<a href="managelecturers.php">
 						<div class="card ">
 					        <div class="card-content align-center">
-					        	<img src="images/Image2.jpg" class="dashboard-icon" type="images/png" alt="My Profile">
-					          <h5 class=" fontw-500 color-green margin-top-0 margin-bottom-25">Manage Lecturers</h5>
+					        	<img src="images/lecturer-icon.png" class="dashboard-icon" type="images/png" alt="My Profile">
+					          <h5 class=" fontw-500 color-black margin-top-0 margin-bottom-25">Manage Lecturers</h5>
 				          </div>
 					    </div>
 					</a>
@@ -34,7 +34,7 @@ if($_SESSION['usertype'] != 'admin'){
 						<div class="card ">
 					        <div class="card-content align-center">
 					        	<img src="images/courses-icon.png" class="dashboard-icon" type="images/png" alt="My Profile">
-					          	<h5 class=" fontw-500 color-green margin-top-0 margin-bottom-25">Manage Courses</h5>
+					          	<h5 class=" fontw-500 color-black margin-top-0 margin-bottom-25">Manage Courses</h5>
 					        </div>
 					    </div>
 					</a>
@@ -45,8 +45,8 @@ if($_SESSION['usertype'] != 'admin'){
 						<div class="card ">
 					        <div class="card-content align-center">
 					        	<img src="images/my-courses-icon.png" class="dashboard-icon" type="images/png" alt="My Profile">
-					          	<h5 class=" fontw-500 color-green margin-top-0 margin-bottom-25">Manage Students</h5>
-					        </div>
+					          	<h5 class=" fontw-500 color-black margin-top-0 margin-bottom-25">Manage Students</h5>
+				          </div>
 					    </div>
 					</a>
 				</div><!--col end-->

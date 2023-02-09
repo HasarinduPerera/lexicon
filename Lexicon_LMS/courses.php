@@ -36,7 +36,7 @@
 }
             </style>
 			
-			<div class=" card sticky-action ">
+		  <div class=" card sticky-action ">
 		        <div class="card-image course <?php echo $row['category'];?>"> <!--class name for thumbnail style-->
 		        	<span class="card-corner"><?php echo $row['category'];?></span><!--course category-->
 		        </div><!--card-image end-->
