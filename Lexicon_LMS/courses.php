@@ -20,20 +20,20 @@
 			<!--course card start-->
 			<style type="text/css">
 			.more {
-	color: #ffab00;
-}
-            .icon {
-	color: #ffab00;
-}
-            .teacher {
-	color: #ffab00;
-}
-            .teacher {
-	color: #ffab00;
-}
-            .fa-icon {
-	color: #ffab00;
-}
+				color: #ffab00;
+			}
+			            .icon {
+				color: #ffab00;
+			}
+			            .teacher {
+				color: #ffab00;
+			}
+			            .teacher {
+				color: #ffab00;
+			}
+			            .fa-icon {
+				color: #ffab00;
+			}
             </style>
 			
 			<div class=" card sticky-action ">
