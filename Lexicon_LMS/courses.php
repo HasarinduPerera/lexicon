@@ -1,4 +1,5 @@
-<?php	
+<?php
+include_once('header.php');
 	$viewMoreURL = "";
 
 	$result_courses = mysqli_query($dbconnect,"SELECT * FROM `course`"); //select all courses from the database
@@ -106,12 +107,28 @@
 		}//end while
 	}//end if
 
-	//if student clicks enroll button
+	/*//if student clicks enroll button
 	if(isset($_GET['enroll'])){
 		$enroll_id = $_GET['enroll']; //course ID
 		$user_id = $_SESSION['username']; //student ID
 
 		$enroll_query = "INSERT INTO `course-enrolled`(`courseID`, `studID`) VALUES ('$enroll_id','$user_id')"; //enroll student query - insert course ID and student ID in course-enrolled table
+		$sql_insert = mysqli_query($dbconnect, $enroll_query);
+
+		if($sql_insert){
+			echo "successfully enrolled";
+		}
+		else{
+			echo "failed to enroll";
+		}
+	}*/
+
+	//if student clicks enroll button
+	if(isset($_GET['enroll'])){
+		$enroll_id = $_GET['enroll']; //course ID
+		$user_id = $_SESSION['username']; //student ID
+
+		$enroll_query = "INSERT INTO `course-enrolled`(`courseID`, `studID`, `lect1`, `lect2`, `lect3`, `lect4`, `lect5`, `asn1`, `asn2`, `totalAttend`, `courseMark`) VALUES ('$enroll_id','$user_id', 0, 0, 0, 0, 0, 0, 0, 0, 0)"; //enroll student query - insert course ID and student ID in course-enrolled table
 		$sql_insert = mysqli_query($dbconnect, $enroll_query);
 
 		if($sql_insert){
