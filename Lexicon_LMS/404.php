@@ -10,6 +10,7 @@
  						<h1 class="page-heading ">404 Error</h1>
  						<p>You are not authorized to access requested page.</p>
  						<p>Back to <a href="index.php">Home</a></p>
+                        <p>Lexicon 2023</p>
 
  					</div>
  				</div>
